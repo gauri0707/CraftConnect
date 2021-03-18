@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create your Account</title>
+</head>
+<script>
+function openWindow(){
+  window.open("My Webpage.html");
+}
+</script>
+<style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    .center{
+      text-align: center;
+    }
+
+    .card button:hover {
+      opacity: 0.7;
+    }
+</style>
+
+<body>
+
+<div class="card container">
+      <img src="craftconnect.png" class="img-circle center" alt="craftconnect" height="225px" width="225px">
+    <h2>Create Account</h2>
+  <form role="form">
+      <div class="form-group">
+        <label for="usr"><strong>Your Name:</strong></label>
+        <input type="text" class="form-control" id="usr" placeholder="Enter Name">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="email"><strong>Email :</strong></label>
+        <input type="text" class="form-control" id="email" placeholder="Enter E-mail">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="pwd"><strong>Password:</strong></label>
+        <input type="text" class="form-control" id="pwd" placeholder="Enter Password">
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="pwd2"><strong>Re-type Password:</strong></label>
+        <input type="text" class="form-control" id="pwd2" placeholder="Re-enter Password">
+      </div>
+      <p><button type="button" onclick="openWindow()">Create</button></p>
+
+  </form>
+</div>
+</body>
+
+</html>
